@@ -7,7 +7,13 @@ const app = express();
 const PORT = 5000;
 
 // Middleware
-app.use(cors());
+app.use(cors(
+    {
+        origin:['https://otp-sender.vercel.app/'],
+        method: ["POST", "GET"],
+        credentials: true
+    }
+));
 app.use(bodyParser.json());
 
 // Static list of contacts (You can replace this with real data)
