@@ -1,6 +1,6 @@
 # OTP Sender Web Application
 
-![OTP Sender](/otp-sender/frontend/public/otpsender.png)
+![OTP Sender](/frontend/public/otpsender.png)
 
 A web application that allows users to send OTPs (One-Time Passwords) via SMS to a selected contact using the MSG91 API. The application is built with React for the frontend and Node.js for the backend.
 
